@@ -1,0 +1,91 @@
+body {
+   
+    margin: 0;
+    padding: 1;
+    font-size: x-large;
+    background-color: rgb(44, 87, 124);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3F51B5;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(44, 87, 124);
+    color: aliceblue;
+    
+
+}
+
+img {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+}
+
+
+
+.navButton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+.contenedor {
+    margin-bottom: 20px; /* Margen inferior para separar los recuadros */
+  }
+  
+  .recuadro {
+    border: 4px solid #faf6f6; /* Estilo del borde */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Alinear el contenido al centro */
+  }
+  
+  .recuadro img {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    max-height: 200px; /* Altura máxima de la imagen */
+    margin: auto; /* Centrar la imagen */
+    margin-bottom: 5px; /* Margen inferior para separar la imagen del título */
+  }
+  
+  .recuadro h3 {
+    margin-top: 0; /* Eliminar el margen superior predeterminado */
+  }
+  
